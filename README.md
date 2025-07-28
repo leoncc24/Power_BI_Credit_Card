@@ -3,7 +3,7 @@
 ![Dashboard Preview](docs/screenshot1.png)
 ![Dashboard Preview](docs/screenshot2.png)
 
-## 📊 Project Overview
+##  Project Overview
 Power BI dashboard analyzing **6 months of 4000 customers income and expense practice** across 5 cities, tracking key characteristics including:
 - Spend category
 - Occupation
@@ -17,7 +17,7 @@ Get insight of Where do people spend money the most? Does it have any impact due
 Identify and profile key customer segments that are likely to be the highest-value users of the new credit cards.  
 **
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
 ### Prerequisites
 - Power BI Desktop 
@@ -29,7 +29,7 @@ Identify and profile key customer segments that are likely to be the highest-val
    - `Transform Data` → `Data Source Settings`
 4. Refresh data (`Home` → `Refresh`)
 
-## 📈 Key Metrics Calculated
+##  Key Metrics Calculated
 
 | Metric | Formula | Description |
 |--------|---------|-------------|
@@ -38,12 +38,12 @@ return avg_income * 6 ` | Amount of income |
 | **Total spend** | `DIVIDE([Total spend],[Total income])  ` | Amount of spends |
 | **Income Utilization % ** | `DIVIDE([Total spend],[Total income]) ` | What percentage of income do they spend  |
 
-## 📅 Data Coverage
+##  Data Coverage
 - **Period**: May - October 
 - **Properties**: 4000 customers across 5 cities
 - **Update Frequency**: monthly manual uploads
 
-## 🔍 Sample Analysis Views
+##  Sample Analysis Views
 1. **Key matrix cards**
    - Total Income
    - Total Spend
@@ -62,7 +62,7 @@ return avg_income * 6 ` | Amount of income |
    -Total spend across 6 months
    
 
-## 📝 Documentation
+##  Documentation
 - (docs/meta_data.txt) - Data Dictionary Field definitions and sources
 - (docs/metrics list.xlsx) - Metric Formulas Detailed KPI calculations
 - (docs/power_query_doc.txt) - Data Loading and Power Query Documentation
